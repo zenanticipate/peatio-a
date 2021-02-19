@@ -172,5 +172,7 @@ describe Abilities do
     it { is_expected.not_to be_able_to(:write, Operations::Expense.new) }
     it { is_expected.not_to be_able_to(:write, Operations::Liability.new) }
     it { is_expected.not_to be_able_to(:write, Operations::Revenue.new) }
+    it { is_expected.to be_able_to(:read, Currency.new) }
+    it { is_expected.to be_able_to(:read, Adjustment.new) }
   end
 end

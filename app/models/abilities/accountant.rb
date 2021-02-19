@@ -21,6 +21,9 @@ module Abilities
 
       can :create, Deposits::Fiat
       can :create, Adjustment
+
+      can :read, Currency
+      can :read, Adjustment
     end
   end
 end
