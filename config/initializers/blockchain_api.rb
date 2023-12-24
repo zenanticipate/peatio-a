@@ -1,0 +1,13 @@
+Peatio::Blockchain.registry[:auscash] = Auscash::Blockchain
+Peatio::Blockchain.registry[:bitcoin] = Bitcoin::Blockchain
+Peatio::Blockchain.registry[:ravencoin] = Ravencoin::Blockchain
+Peatio::Blockchain.registry[:reaction] = Reaction::Blockchain
+Peatio::Blockchain.registry[:radiant] = Radiant::Blockchain
+Peatio::Blockchain.registry[:dogecoin] = Dogecoin::Blockchain
+Peatio::Blockchain.registry[:digibyte] = Digibyte::Blockchain
+Peatio::Blockchain.registry[:dingocoin] = Dingocoin::Blockchain
+Peatio::Blockchain.registry[:cyberdollar] = Cyberdollar::Blockchain
+Peatio::Blockchain.registry[:geth] = Ethereum::Eth::Blockchain
+Peatio::Blockchain.registry[:parity] = Ethereum::Eth::Blockchain
+Peatio::Blockchain.registry[:"geth-bsc"] = Ethereum::Bsc::Blockchain
+Peatio::Blockchain.registry[:"geth-heco"] = Ethereum::Heco::Blockchain

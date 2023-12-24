@@ -1,0 +1,16 @@
+Peatio::Wallet.registry[:auscashd] = Auscash::Wallet
+Peatio::Wallet.registry[:bitcoind] = Bitcoin::Wallet
+Peatio::Wallet.registry[:ravencoind] = Ravencoin::Wallet
+Peatio::Wallet.registry[:reactiond] = Reaction::Wallet
+Peatio::Wallet.registry[:radiantd] = Radiant::Wallet
+Peatio::Wallet.registry[:dogecoind] = Dogecoin::Wallet
+Peatio::Wallet.registry[:digibyted] = Digibyte::Wallet
+Peatio::Wallet.registry[:dingocoind] = Dingocoin::Wallet
+Peatio::Wallet.registry[:cyberdollard] = Cyberdollar::Wallet
+Peatio::Wallet.registry[:geth] = Ethereum::Eth::Wallet
+Peatio::Wallet.registry[:parity] = Ethereum::Eth::Wallet
+Peatio::Wallet.registry[:gnosis] = Gnosis::Wallet
+Peatio::Wallet.registry[:"ow-hdwallet-eth"] = OWHDWallet::WalletETH
+Peatio::Wallet.registry[:"ow-hdwallet-bsc"] = OWHDWallet::WalletBSC
+Peatio::Wallet.registry[:"ow-hdwallet-heco"] = OWHDWallet::WalletHECO
+Peatio::Wallet.registry[:opendax_cloud] = OpendaxCloud::Wallet
