@@ -1,4 +1,4 @@
-module Dogecoin
+module Earthcoin
     # TODO: Processing of unconfirmed transactions from mempool isn't supported now.
     class Blockchain < Peatio::Blockchain::Abstract
 
@@ -35,7 +35,7 @@ module Dogecoin
         raise Peatio::Blockchain::ClientError, e
       end
 
-      def load_balance_of_address!(address)
+      def load_balance_of_address!(address, _currency_id)
         address_with_balance = client.json_rpc(:listaddressgroupings)
                                  .flatten(1)
                                  .find { |addr| addr[0] == address }
